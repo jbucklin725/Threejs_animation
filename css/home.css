@@ -1,0 +1,30 @@
+.page-center-container {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:url('../img/AIBrain.jpg'), move;
+}
+
+.web-content {
+    position: fixed;
+    z-index: 999;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    cursor: none;
+    pointer-events: auto;
+    
+}
+
+.model-area {
+    vertical-align: top; 
+    top: 0;
+    position: absolute;
+    width: 1200px;
+    height: 900px;
+}
